@@ -2141,7 +2141,7 @@ nav.navbar.validnavs.brand-center {
 		padding-top: 13px !important;
 		padding-bottom: 13px !important;
 	}
-	nav.navbar.validnavs.navbar-mobile .navbar-collapse [classNameName*=" col-"] {
+	nav.navbar.validnavs.navbar-mobile .navbar-collapse [classNameNameName*=" col-"] {
 		width: 100%;
 	}
 	nav.navbar.validnavs.navbar-fixed .logo-scrolled {

@@ -6,7 +6,7 @@ import {Banner, Footer, Header,Service,About, Testmonial, Brand, Process, Projec
 function Home() {
   return (
   <>
-    <Header />
+    <Header/>
     <Banner/>
     <Service/>
     <About/>

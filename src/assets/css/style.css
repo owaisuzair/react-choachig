@@ -11706,3 +11706,7 @@ footer .footer-bottom .text-right li:first-child {
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
+
+.slick-slide img{
+  display: inline-block;
+}

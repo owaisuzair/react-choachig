@@ -1,5 +1,6 @@
 import React from 'react'
 import {Logo} from './image'
+import {NavLink} from 'react-router-dom'
 function Header() {
   return (
     <>
@@ -24,6 +25,7 @@ function Header() {
                             <li>
                                 <a href="#">
                                     <i className="fab fa-facebook-f"></i>
+                               
                                 </a>
                             </li>
                             <li>
@@ -89,19 +91,23 @@ function Header() {
                         
                         <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li className="">
-                                <a href="" className="dropdown-toggle active" data-toggle="dropdown" >Home</a>
+                             
+                                <NavLink to="/" className="dropdown-toggle active" data-toggle="dropdown" >Home</NavLink>
                             </li>
                             <li className="">
-                                <a href="./about us.html" className="dropdown-toggle" data-toggle="dropdown" >about us</a>
+                                <NavLink to="/about" className="dropdown-toggle" data-toggle="dropdown" >about us</NavLink>
                             </li>
                             <li className="">
-                                <a href="./project.html" className="dropdown-toggle" data-toggle="dropdown" >courses</a>
+                            <NavLink to="/courses" className="dropdown-toggle" data-toggle="dropdown" >courses</NavLink>
                             </li>
                             <li className="">
-                                <a href="./why-choose-us.html" className="dropdown-toggle" data-toggle="dropdown" >why choose us</a>
+                            <NavLink to="/why_chooses_us" className="dropdown-toggle" data-toggle="dropdown" >why chooses us</NavLink>
                             </li>
                             <li className="">
-                                <a href="./contact us.html" className="dropdown-toggle" data-toggle="dropdown" >contact us</a>
+                            <NavLink to="/contact_us" className="dropdown-toggle" data-toggle="dropdown" >contact us</NavLink>
+                            </li>
+                                <li className="">
+                            <NavLink to="/form" className="dropdown-toggle" data-toggle="dropdown" >Form</NavLink>
                             </li>
                         </ul>
                     </div>
