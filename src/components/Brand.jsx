@@ -3,7 +3,6 @@ import Slider from "react-slick"
 import { LogoHhml,LogoCss,LogoBootstrap, LogoJavascript,LogoReact,LogoExpress,
     LogoFirebase, LogoMongodp,LogoNode,LogoPostgre,LogoSql,LogoTypescript,
     LogoVercle,LogoGitup ,LogoGit} from './image'
-
 function Brand() {
     const settings = {
         dots: false,
